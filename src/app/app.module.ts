@@ -13,9 +13,11 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { FormsModule } from '@angular/forms';
 
+import { RxjsComponent } from './pages/rxjs/rxjs.component';
 
 // servicios
 import { ServiceModule } from './services/service.module';
+
 
 
 
@@ -23,7 +25,8 @@ import { ServiceModule } from './services/service.module';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    RxjsComponent
   ],
   imports: [
     BrowserModule,
