@@ -23,9 +23,11 @@
     "chart.js": "^2.7.2",
     "core-js": "^2.5.4",
     "cryptiles": "^4.1.2",
+    "google-auth-library": "^2.0.1",
     "hoek": "^4.2.1",
     "ng2-charts": "^1.6.0",
     "rxjs": "^6.0.0",
+    "sweetalert": "^2.1.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

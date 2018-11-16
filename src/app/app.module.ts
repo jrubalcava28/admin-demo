@@ -11,7 +11,7 @@ import { PageModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { RxjsComponent } from './pages/rxjs/rxjs.component';
 
@@ -33,6 +33,7 @@ import { ServiceModule } from './services/service.module';
     APP_ROUTES,
     PageModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule
   ],
   providers: [],
